@@ -1,0 +1,14 @@
+package Q5;
+
+public class Cat extends Pet {
+
+    private String coatColor;
+
+    public void setCoatColor(String c) {
+        coatColor = c;
+    }
+
+    public String getCoatColor() {
+        return coatColor;
+    }
+}
